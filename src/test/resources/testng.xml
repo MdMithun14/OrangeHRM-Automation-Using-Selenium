@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name =" Orange HRM AutoMation">
+    <test name ="Admin can Login">
+        <classes>
+            <class name="testrunner.LoginTestRunner">
+            </class>
+        </classes>
+
+    </test>
+    <test name ="PIM Create User ">
+        <classes>
+            <class name="testrunner.PimTestRunner">
+            </class>
+        </classes>
+
+    </test>
+    <test name ="New Employee can login ">
+        <classes>
+            <class name="testrunner.EmployeeProfileTestRunner">
+            </class>
+        </classes>
+
+    </test>
+
+</suite>
